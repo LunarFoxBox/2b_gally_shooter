@@ -5,7 +5,7 @@ class Preloads extends Phaser.Scene {
     }
 
     preload(){
-        this.load.setPath("../assets/");
+        this.load.setPath("./assets/");
 
         this.load.image("tiny_battles_tiles", "tilemap_packed.png");    // tile sheet   
         this.load.tilemapTiledJSON("map", "map.json");                   // Load JSON of tilemap
