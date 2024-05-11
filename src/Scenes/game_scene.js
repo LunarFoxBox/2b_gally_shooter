@@ -25,13 +25,13 @@ class GameScene extends Phaser.Scene {
     create() {
         let my = this.my;
 
-        this.map = this.add.tilemap("map", 16, 16, 10, 10);
-        this.tileset = this.map.addTilesetImage("tiny_battles_packed", "tiny_battles_tiles");
+        //this.map = this.add.tilemap("map", 16, 16, 10, 10);
+        //this.tileset = this.map.addTilesetImage("tiny_battles_packed", "tiny_battles_tiles");
 
-        this.grassLayer = this.map.createLayer("grass", this.tileset, 0, 0);
-        this.buildingLayer = this.map.createLayer("buildings", this.tileset, 0, 0);
-        this.grassLayer.setScale(4.0);
-        this.buildingLayer.setScale(4.0);
+        //this.grassLayer = this.map.createLayer("grass", this.tileset, 0, 0);
+        //this.buildingLayer = this.map.createLayer("buildings", this.tileset, 0, 0);
+        //this.grassLayer.setScale(4.0);
+        //this.buildingLayer.setScale(4.0);
 
 
         // Create key objects
